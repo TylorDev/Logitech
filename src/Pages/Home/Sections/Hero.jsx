@@ -1,18 +1,12 @@
 import "./Hero.scss";
-import { GoDotFill } from "react-icons/go";
 import { FaFacebookF } from "react-icons/fa";
 import { SlSocialVkontakte } from "react-icons/sl";
-import { Button } from "../../../Components";
+import { Button, HeaderScroll } from "../../../Components";
 import { IoLogoTwitter } from "react-icons/io";
 function Hero() {
   return (
     <section className="Hero">
-      <div className="scroll ">
-        <GoDotFill className=" icon current" size={15}></GoDotFill>
-        <GoDotFill className="icon" size={15}></GoDotFill>
-        <GoDotFill className="icon" size={15}></GoDotFill>
-        <GoDotFill className="icon" size={15}></GoDotFill>
-      </div>
+      <HeaderScroll></HeaderScroll>
       <div className=" hero-content ">
         <h1>Forge your firepower</h1>
         <h2>
