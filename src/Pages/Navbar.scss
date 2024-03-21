@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Color de fondo del navbar */
+    max-height: 5rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar-logo {
+    height: 2.5rem;
+    margin-left: 5%;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+
+.navbar-nav {
+
+    list-style-type: none;
+    display: flex;
+    margin-right: 13%;
+    /* Espacio entre los elementos del navbar */
+}
+
+.nav-item {
+
+    margin-right: 3rem;
+    /* Espacio entre elementos del navbar */
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+    /* Color del texto del enlace */
+    text-decoration: none;
+}
+
+.nav-link:hover {
+
+    color: #18E5FF;
+    /* Subrayado al pasar el mouse por encima */
+}
