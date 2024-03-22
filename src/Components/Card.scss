@@ -1,0 +1,21 @@
+.card-content {
+    width: 30%;
+    padding: 1.7rem;
+
+    backdrop-filter: blur(1rem);
+
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1rem;
+        color: rgb(192, 192, 192);
+    }
+}

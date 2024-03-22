@@ -3,31 +3,10 @@
     background-position: -10% 0%;
     background-size: cover;
     min-height: max-content;
-    outline: 5px solid red;
+    align-items: center;
+    justify-content: center;
     display: flex;
-
-    .hero-content {
-        width: 30%;
-        padding: 2rem;
-        padding-top: 10rem;
-
-        backdrop-filter: blur(1rem);
-
-
-        h1 {
-            font-size: 3.5rem;
-        }
-
-        h2 {
-            font-size: 1rem;
-            font-weight: bold;
-        }
-
-        p {
-            font-size: 1rem;
-            color: rgb(192, 192, 192);
-        }
-    }
+    height: 100vh;
 }
 
 

@@ -1,0 +1,39 @@
+.about {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    background: rgb(22, 22, 22);
+    background: linear-gradient(90deg, rgba(22, 22, 22, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    ;
+}
+
+.img {
+    width: auto;
+    height: 100%;
+    transition: all 1s;
+
+
+}
+
+.about-content {
+    width: 30%;
+    padding: 2rem;
+
+
+    backdrop-filter: blur(1rem);
+
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1rem;
+        color: rgb(192, 192, 192);
+    }
+}
