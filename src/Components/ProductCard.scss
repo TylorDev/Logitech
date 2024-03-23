@@ -1,0 +1,46 @@
+.product-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+    max-height: 50vh;
+    padding-bottom: 5rem;
+
+}
+
+.product-img {
+
+    justify-self: end;
+
+    padding-right: 14rem;
+
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+}
+
+.product-info {
+    margin-left: 5rem;
+    justify-self: start;
+
+
+    max-width: 50%;
+
+}
+
+.product-tittle {
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+.product-desc {
+    font-size: 1rem;
+}

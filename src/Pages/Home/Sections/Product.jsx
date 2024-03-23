@@ -1,40 +1,51 @@
 import "./Product.scss";
-import { Card } from "./../../../Components";
+
+import { GoDotFill } from "react-icons/go";
+import { ProductCard, HeaderScroll } from "../../../Components";
 function Product() {
   return (
-    <div className="Product">
-      <div className="Product-img">
-        <img src="product1.png" id="p1" alt="" />
-        <img src="product2.png" id="p2" alt="" />
-        <img src="product3.png" id="p3" alt="" />
-        <img src="product4.png" id="p4" alt="" />
-      </div>
-      <div className="cards ">
-        <Card
-          subtitle={"15 Programmable controls: "}
+    <div className="Products">
+      <div className="PrTittle">PRODUCT</div>
+      <div className="product-list">
+        <ProductCard
+          img={"product1.png"}
+          title={"15 Programmable controls"}
           content={
-            "Program, refine, and win. Master your arsenal in Battle Royale, MMO, and MOBA gameplay with tactically positioned controls in optimal quantity and configuration. Refine and align keybinds, perfect your commands, and win."
+            "Program, refine, and win. Master your arsenal in Battle Royale, MMO,and MOBA gameplay with tactically positioned controls in optimal quantity and configuration. Refine and align keybinds, perfect your commands, and win."
           }
-        ></Card>
-        <Card
-          subtitle={"15 Programmable controls "}
+        ></ProductCard>
+        <ProductCard
+          img={"product2.png"}
+          title={"Dual connectivity with lightspeed"}
           content={
             "One click lets you toggle between ultra-fast 1ms LIGHTSPEED wireless and Bluetooth®—even across two separate machines."
           }
-        ></Card>
-        <Card
-          subtitle={"Dual connectivity with lightspeed"}
+        ></ProductCard>
+        <ProductCard
+          img={"product3.png"}
+          title={"Hero 16K sensor"}
           content={
             "One click lets you toggle between ultra-fast 1ms LIGHTSPEED wireless and Bluetooth®—even across two separate machines."
           }
-        ></Card>
-        <Card
-          subtitle={"Spin. Ratchet. Switch"}
+        ></ProductCard>
+        <ProductCard
+          img={"product4.png"}
+          title={"Spin. Ratchet. Switch"}
           content={
             "A durable metal scroll wheel switches between hyper-fast and ratcheted scrolling. Fly through menus, ratchet through weapon and spell selections, or apply keybinds to up-and-down inputs"
           }
-        ></Card>
+        ></ProductCard>
       </div>
+
+      <div className="vertical-line">
+        <div className="dots">
+          <GoDotFill className={"dot"} size={30}></GoDotFill>
+          <GoDotFill className={"dot"} size={30}></GoDotFill>
+          <GoDotFill className={"dot"} size={30}></GoDotFill>
+          <GoDotFill className={"dot"} size={30}></GoDotFill>
+        </div>
+      </div>
+      <HeaderScroll third={true}></HeaderScroll>
     </div>
   );
 }
