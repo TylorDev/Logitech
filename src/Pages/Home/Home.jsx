@@ -1,5 +1,5 @@
 import "./Home.scss";
-import { Hero, About } from "./Sections";
+import { Hero, About, Product } from "./Sections";
 import NavBar from "./../NavBar";
 import Footer from "../Footer";
 
@@ -9,6 +9,7 @@ function Home() {
       <NavBar></NavBar>
       <Hero></Hero>
       <About></About>
+      <Product></Product>
       <Footer></Footer>
     </div>
   );

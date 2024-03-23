@@ -1,0 +1,73 @@
+.carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+
+
+    width: 100%;
+
+    button {
+        height: 2rem;
+
+    }
+}
+
+.carrusel-conteiner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.carrusel-image {
+    height: 200px;
+
+}
+
+
+img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* Define la animación */
+@keyframes example {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Aplica la animación a un elemento */
+.animated {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+
+.Current {
+    width: 15rem;
+    object-fit: contain;
+}
+
+.Next {
+    width: 5rem;
+    object-fit: contain;
+
+}
+
+.Previus {
+    width: 5rem;
+    object-fit: contain;
+
+}

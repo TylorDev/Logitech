@@ -1,16 +1,22 @@
 .about {
     display: flex;
-    height: 80vh;
+    height: fit-content;
     align-items: center;
     background: rgb(22, 22, 22);
     background: linear-gradient(90deg, rgba(22, 22, 22, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    ;
+    flex-direction: column;
+
+    .about-top {
+        padding-top: 4rem;
+        display: flex;
+        height: 100vh;
+
+    }
 }
 
 .img {
     width: auto;
     height: 100%;
-    transition: all 1s;
 
 
 }

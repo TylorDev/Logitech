@@ -7,7 +7,8 @@ function Card({ className, title, subtitle, content, name }) {
       <h1>{title}</h1>
       <h2>{subtitle}</h2>
       <p>{content}</p>
-      <Button name={name}></Button>
+
+      {name && <Button name={name}></Button>}
     </div>
   );
 }
