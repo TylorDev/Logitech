@@ -1,0 +1,52 @@
+// Footer.scss
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121213;
+    color: #fff;
+    padding: 3rem;
+    height: 50vh;
+
+    /* Esto asegura que el footer ocupe toda la altura de la ventana */
+}
+
+.footer__nav {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__menu li {
+    margin-bottom: 10px;
+}
+
+.footer__menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__social-btn {
+
+    font-size: 1.5rem;
+    color: #00eeff;
+    border: none;
+    background-color: transparent;
+
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}

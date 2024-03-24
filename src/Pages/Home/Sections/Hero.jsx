@@ -1,7 +1,7 @@
 import "./Hero.scss";
+import { HeaderScroll } from "../../../Components";
 import { FaFacebookF } from "react-icons/fa";
 import { SlSocialVkontakte } from "react-icons/sl";
-import { HeaderScroll } from "../../../Components";
 import { IoLogoTwitter } from "react-icons/io";
 import { Card } from "../../../Components/";
 function Hero() {
