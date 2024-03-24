@@ -6,7 +6,9 @@ function About() {
     <section className="about">
       <div className="about-top">
         <HeaderScroll second={true}></HeaderScroll>{" "}
-        <img className="img " src="About.png" alt="" />
+        <div className="mouse ">
+          <img className="img" src="About.png" alt="" />
+        </div>
         <Card
           title={"MAKE YOUR PLAY"}
           subtitle={
